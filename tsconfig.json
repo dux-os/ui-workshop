@@ -1,0 +1,28 @@
+{
+  "compilerOptions": {
+    // typing for Bun
+    "types": ["bun-types"],
+
+    // ecmascript version
+    "lib": [ "ESNext"],
+    "module": "esnext",
+    "target": "esnext",
+
+    // bundling configuration for TS 5+
+    "moduleResolution": "bundler",
+    "moduleDetection": "force",
+    "allowImportingTsExtensions": true,
+    "noEmit": true,
+
+    // needed for now
+    "allowJs": true,
+
+    // best practices
+    "allowSyntheticDefaultImports": true,
+    "composite": true,
+    "downlevelIteration": true,
+    "forceConsistentCasingInFileNames": true,
+    "skipLibCheck": true,
+    "strict": true
+  }
+}

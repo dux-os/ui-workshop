@@ -1,0 +1,11 @@
+# IntelliJ based IDEs
+.idea/
+
+# Dependency directories
+node_modules/
+
+# Bun build output
+build/
+
+# Storybook build outpout
+storybook-static/
